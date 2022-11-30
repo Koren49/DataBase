@@ -7,6 +7,16 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 
+
+// Koren wants to work on a feature. koren will do the following:
+// 1. Create a feature branch
+// 2. work on his feature
+// 3. once done -> QA
+// 4. create a pull request to the main branch (master)
+
+
+
+
 class UserListActivity: AppCompatActivity(), OnUserActionListener{
     val mainViewModel: MainViewModel by viewModels()
 
